@@ -1,0 +1,102 @@
+/* Chatbot container */
+body{
+	font-family: "Calibri";
+}
+#chatbot {
+	display: flex;
+	flex-direction: column;
+	height: 50%;
+	width: 90%;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+/* Chat log */
+#chat-log {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	overflow-y: auto;
+}
+
+/* Chat form */
+#chat-form {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+
+/* Chat input */
+#chat-input {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	outline: none;
+	flex: 1;
+}
+
+/* Chat button */
+#chat-button {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #eee;
+	cursor: pointer;
+}
+
+/* Message */
+
+.message {
+	display: flex;
+	flex-direction: column;
+	margin: 10px 0;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+/* User message */
+.user-message {
+	display: flex;
+	flex-direction: column;
+	margin: 10px 0;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #4792D8;
+	align-self: flex-end;
+}
+
+/* Bot message */
+.bot-message {
+	display: flex;
+	flex-direction: column;
+	margin: 10px 0;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #C42525;
+	align-self: flex-start;
+}
+
+/* Message sender */
+.message-sender {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+/* Message text */
+.message-text {
+	word-break: break-word;
+}
+
+
+button[type="submit"] {
+	height: 40px;
+	padding: 0 20px;
+	background-color: #4c8bf5;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
