@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Chatbot</title>
-	<link href="chat.css" type="text/css" rel="stylesheet">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chatbot</title>
+<link href="chat.css" type="text/css" rel="stylesheet">
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
 </head>
 <body><center>
-	<img src="aoh.png" width = "5%">
+	<img src="aoh.png" width = "70px">
 	<h1>AoH Chatbot</h1></center>
-	<!-- Chatbot interface -->
-	<div id="chatbot">
-		<!-- Chat log -->
-		<div id="chat-log">
-			<!-- Chat messages will be appended here -->
-			
-	</div>
-</div>
-
-		</div>
-		<!-- Input form -->
-		<form id="chat-form">
-			<!-- Input field -->
-			<input type="text" id="chat-input" placeholder="Ask a question..." />
-			<!-- Submit button -->
-			<button type="submit">Send</button>
-		</form>
-	</div>
+<div class="container col-sm-9">
+  <!-- Chatbot interface -->
+  <div id="chatbot">
+    <!-- Chat log -->
+    <div id="chat-log">
+      <!-- Chat messages will be appended here -->
+      
+    </div>
+  </div>
+  
+  <!-- Input form -->
+  <center><form id="chat-form">
+    <!-- Input field -->
+    <input type="text" id="chat-input" placeholder="Ask a question..." />
+    <!-- Submit button -->
+    <button type="submit">Send</button>
+	  </form></center>
+  </div>
 	<script src="chatbot.js"></script>
 </body>
 </html>
